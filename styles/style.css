@@ -18,7 +18,8 @@ body {
     font-weight: 600;
     color: #FFFFFF;
 }
-.section-title{
+
+.section-title {
     font-size: 40px;
     font-weight: bold;
     color: #0E0E0E;
@@ -128,7 +129,7 @@ main {
 /* Pillars scetion End */
 
 /* future section star */
-.future-card-container{
+.future-card-container {
     display: flex;
     justify-content: space-between;
     gap: 24px;
@@ -138,28 +139,30 @@ main {
     width: 410px;
     border-radius: 16px;
     padding: 32px 40px;
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: start;
 }
 
-.future-section-description{
+.future-section-description {
     line-height: 24px;
 }
 
 .future-card-1 {
     background-color: rgba(84, 144, 245, 0.2);
 }
+
 .future-card-2 {
     background-color: rgb(198, 228, 214);
 }
+
 .future-card-3 {
     background-color: rgb(247, 235, 207);
 }
 
 
-.future-title {     
+.future-title {
     font-size: 20px;
     font-weight: bold;
     color: rgba(14, 14, 14, 0.8);
@@ -183,9 +186,11 @@ main {
 .future-btn-1 {
     background-color: #5490F5;
 }
+
 .future-btn-2 {
     background-color: #09A15C;
 }
+
 .future-btn-3 {
     background-color: #FFC239;
 }
@@ -193,71 +198,143 @@ main {
 /* future section End */
 
 /* dr yunus speaks start */
-.dr-yunus-speaks{
+.dr-yunus-speaks {
     background-color: #FFFFFF;
     border-radius: 16px;
     padding: 30px 24px 48px 24px;
     margin-top: 32px;
     align-items: center;
 }
-.quote{
+
+.quote {
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
 }
-.quote p{
+
+.quote p {
     padding-top: 30px;
     margin-bottom: 12px;
     line-height: 24px;
 }
-.dr-yunus-speaks h3{
+
+.dr-yunus-speaks h3 {
     font-size: 20px;
     font-weight: 600;
     color: rgba(14, 14, 14, 0.8);
     margin-bottom: 4px;
 }
-.dr-yunus-speaks p{
+
+.dr-yunus-speaks p {
     margin: 0;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.6);
 
 }
+
 /* dr yunus speaks end */
 
 /* Opinion section start */
-.table-container{
+.table-container {
     background-color: #FFFFFF;
     padding: 32px;
     border-radius: 16px;
 }
-.opinion-table, tr, td{
+
+.opinion-table,
+tr,
+td {
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-collapse: collapse;
     width: 100%;
 }
-.opinion-table thead{
+
+.opinion-table thead {
     background-color: #C6E4D6;
 
 }
-.opinion-table th, td {
+
+.opinion-table th,
+td {
     text-align: left;
     padding: 15px;
     border-bottom: 1px solid #ddd;
     margin: 24px;
 }
-.opinion-table th{
+
+.opinion-table th {
     font-size: 20px;
     font-weight: 600;
 }
-.opinion-table td{
+
+.opinion-table td {
     font-weight: 600;
 }
+
 select {
     padding: 10px 14px;
     margin: 24px;
     border-radius: 4px;
     background-color: #C6E4D6;
-  }
-  .opinion-table option, select{
-font-weight: 600;
 }
+
+.opinion-table option,
+select {
+    font-weight: 600;
+}
+
 /* Opinion section end */
+
+/* newssection start */
+.satellite-container {
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 48px;
+    gap: 32px;
+    align-items: center;
+}
+
+.satellite-one-container {
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+.satellite-two-container {
+margin-bottom: 24px
+}
+.satellite-three-container {
+margin-bottom: 80px;
+}
+
+.satelite-img img {
+    border-radius: 24px;
+}
+
+.satellite-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 0;
+}
+
+.satelite-time {
+    display: flex;
+    gap: 12px;
+}
+
+.satelite-time p {
+    color: rgba(14, 14, 14, 0.7);
+    margin: 0;
+}
+
+.satellite-discribe img {
+    margin: 12px 0px;
+}
+
+.satelite-description {
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+    margin-top: 12px;
+}
+
+/* newssection End */
