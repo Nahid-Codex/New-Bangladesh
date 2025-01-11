@@ -3,15 +3,116 @@
 /* font-family: "Fira Sans", serif; */
 
 /* share styles Start*/
+body {
+    font-family: "Fira Sans", serif;
+    background-color: #F5F5F5;
+}
 
 /* share styles End*/
-
+.btn-primary {
+    background-color: #006A50;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
 
 /* Nav Style Start */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 160px;
+    align-items: center;
+}
+
+.nav-text-logo {
+    font-size: 32px;
+}
+
+.sign-in-btn {
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
+    border-radius: 8px;
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    background: transparent;
+    height: 52px;
+    cursor: pointer;
+}
 
 /* Nav Style End */
 
 
 /* Banner Section Start */
+.banner-section {
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    margin: 20px 160px;
+    display: flex;
+    height: 560px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 64px;
+    padding: 80px 60px;
+
+}
+
+.hero-pic {
+    height: 400px;
+}
+
+.banner-sub-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+    margin: 0;
+}
+
+.banner-title {
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin: 16px 0px 24px 0px;
+}
 
 /* Banner Section End */
+
+/* main style */
+main {
+    margin: 24px 160px;
+}
+
+/* Pillars scetion start */
+.Pillars-section{
+    margin: 80px 0px;
+}
+.pillars-section-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.pillars-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.pillars-card{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    width: 302px;
+    padding: 24px;
+    }
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, .8);
+}
+
+.card-description{
+    color: rgba(14, 14, 14, 0.7);
+}
+/* Pillars scetion End */
