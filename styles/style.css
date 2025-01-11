@@ -390,8 +390,9 @@ margin-bottom: 80px;
     cursor: pointer;
 
 }
-.amount-box-two{
+.amount-box:hover{
     background-color: #C6E4D6;
+    transition: .1s ease-in-out;
 }
 .donate-section input{
     padding: 20px 40px;
